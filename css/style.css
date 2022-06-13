@@ -284,6 +284,7 @@ a {
         height: 200px;
         border-radius: 5px;
         margin: 3px;
+        text-shadow: 0px 0px 5px black;
     }
 
     
@@ -311,7 +312,7 @@ a {
 #bug {
     background-color: #729F3F;
     border: 1px solid #516e30;
-    color: black;
+    color: white;
 }
 
 #bug:active {
@@ -321,7 +322,7 @@ a {
 #dragao {
     background-image: linear-gradient(to bottom, #53A4CF 50%, #F16E57 50% );
     border: 1px solid white;
-    color: black;
+    color: white;
 }
 
 #dragao:active {
@@ -331,7 +332,7 @@ a {
 #fada {
     background-color: #FDB9E9;
     border: 1px solid #835475;
-    color: black;
+    color: white;
 }
 
 #fada:active {
@@ -341,7 +342,7 @@ a {
 #fogo {
     background-color: #FD7D24;
     border: 1px solid #a55217;
-    color: black;
+    color: white;
 }
 
 #fogo:active {
@@ -351,7 +352,7 @@ a {
 #ghost {
     background-color: #7B62A3;
     border: 1px solid #4a3868;
-    color: black;
+    color: white;
 }
 
 #ghost:active {
@@ -361,7 +362,7 @@ a {
 #ground {
     background-image: linear-gradient(to bottom, #F7DE3F 50%, #AB9842 50%);
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #ground:active {
@@ -371,7 +372,7 @@ a {
 #normal {
     background-color: #A4ACAF;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #normal:active {
@@ -381,7 +382,7 @@ a {
 #psiquico {
     background-color: #F366B9;
     border: 1px solid #96346d;
-    color: black;
+    color: white;
 }
 
 #psiquico:active {
@@ -391,7 +392,7 @@ a {
 #steel {
     background-color: #9EB7B8;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #steel:active {
@@ -401,7 +402,7 @@ a {
 #dark {
     background-color: #707070;
     border: 1px solid rgb(85, 83, 83);
-    color: black;
+    color: white;
 }
 
 #dark:active {
@@ -411,7 +412,7 @@ a {
 #electric {
     background-color: #EED535;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #electric:active {
@@ -421,7 +422,7 @@ a {
 #luta {
     background-color: #D56723;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #luta:active {
@@ -431,7 +432,7 @@ a {
 #flying {
     background-image: linear-gradient(to bottom, #3DC7EF 50%, #BDB9B8 50%);
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #flying:active {
@@ -441,7 +442,7 @@ a {
 #planta {
     background-color: #9BCC50;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #planta:active {
@@ -451,7 +452,7 @@ a {
 #ice {
     background-color: #51C4E7;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #ice:active {
@@ -461,7 +462,7 @@ a {
 #poison {
     background-color: #B97FC9;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #poison:active {
@@ -471,7 +472,7 @@ a {
 #rock {
     background-color: #A38C21;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #rock:active {
@@ -481,7 +482,7 @@ a {
 #agua {
     background-color: #4592C4;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 
 #agua:active {
