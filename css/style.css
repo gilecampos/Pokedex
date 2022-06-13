@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/img-fundo3.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MOBILE-FIRST */
+@media(max-width: 450px) {
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+
+.h1-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+}
+
+
+.tipagem-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.tipagem-container h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.tipos {
+   display: grid;
+   grid-template-columns: auto auto;
+
+}
+
+.box-tipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+}
+
+/* SCREEN 451 and 800px */
+@media(min-width:451px) and (max-width: 800px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-image: linear-gradient(to bottom, #0955A0, #13a1d4);
+    }
+    
+    .h1-header {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        color: white;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+    }
+    
+    
+    .tipagem-container {
+        display: flex;
+        flex-direction: column;
+        margin: 8px;
+    }
+    
+    .tipagem-container h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 15px;
+    }
+    
+    .tipos {
+       display: grid;
+       grid-template-columns: auto auto;
+    
+    }
+    
+    .box-tipo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        width: auto;
+        height: 50px;
+        border-radius: 5px;
+        margin: 3px;
+    }
+    
+    .rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 30px;
+        bottom: 0%;
+        color: white;
+        background-color: #13a1d4;
+    }
+}
+
+/* TIPOS */
+#bug {
+    background-color: #729F3F;
+    border: 1px solid #516e30;
+    color: black;
+}
+
+#bug:active {
+    background-color: #7fd41fc7;
+}
+
+#dragao {
+    background-image: linear-gradient(to bottom, #53A4CF 50%, #F16E57 50% );
+    border: 1px solid white;
+    color: black;
+}
+
+#dragao:active {
+    background-image: linear-gradient(to bottom, #367ca1 50%, #be5a49 50%);
+}
+
+#fada {
+    background-color: #FDB9E9;
+    border: 1px solid #835475;
+    color: black;
+}
+
+#fada:active {
+    background-color: #c282af;
+}
+
+#fogo {
+    background-color: #FD7D24;
+    border: 1px solid #a55217;
+    color: black;
+}
+
+#fogo:active {
+    background-color: #a35f2f;
+}
+
+#ghost {
+    background-color: #7B62A3;
+    border: 1px solid #4a3868;
+    color: black;
+}
+
+#ghost:active {
+    background-color: #5c497a;
+}
+
+#ground {
+    background-image: linear-gradient(to bottom, #F7DE3F 50%, #AB9842 50%);
+    border: 1px solid gray;
+    color: black;
+}
+
+#ground:active {
+    background-image: linear-gradient(to bottom, #a5973d 50%, #77692c 50%);
+}
+
+#normal {
+    background-color: #A4ACAF;
+    border: 1px solid gray;
+    color: black;
+}
+
+#normal:active {
+    background-color: #717d81;
+}
+
+#psiquico {
+    background-color: #F366B9;
+    border: 1px solid #96346d;
+    color: black;
+}
+
+#psiquico:active {
+    background-color: #b14d87;
+}
+
+#steel {
+    background-color: #9EB7B8;
+    border: 1px solid gray;
+    color: black;
+}
+
+#steel:active {
+    background-color: #6c7c7c;
+}
+
+#dark {
+    background-color: #707070;
+    border: 1px solid rgb(85, 83, 83);
+    color: black;
+}
+
+#dark:active {
+    background-color: #464242;
+}
+
+#electric {
+    background-color: #EED535;
+    border: 1px solid gray;
+    color: black;
+}
+
+#electric:active {
+    background-color: #a5952a;
+}
+
+#luta {
+    background-color: #D56723;
+    border: 1px solid gray;
+    color: black;
+}
+
+#luta:active {
+    background-color: #974d1e;
+}
+
+#flying {
+    background-image: linear-gradient(to bottom, #3DC7EF 50%, #BDB9B8 50%);
+    border: 1px solid gray;
+    color: black;
+}
+
+#flying:active {
+    background-image: linear-gradient(to bottom, #3488a0 50%, #807370 50%);
+}
+
+#planta {
+    background-color: #9BCC50;
+    border: 1px solid gray;
+    color: black;
+}
+
+#planta:active {
+    background-color: #79a03e;
+}
+
+#ice {
+    background-color: #51C4E7;
+    border: 1px solid gray;
+    color: black;
+}
+
+#ice:active {
+    background-color: #4995ac;
+}
+
+#poison {
+    background-color: #B97FC9;
+    border: 1px solid gray;
+    color: black;
+}
+
+#poison:active {
+    background-color: #8d6997;
+}
+
+#rock {
+    background-color: #A38C21;
+    border: 1px solid gray;
+    color: black;
+}
+
+#rock:active {
+    background-color: #857222;
+}
+
+#agua {
+    background-color: #4592C4;
+    border: 1px solid gray;
+    color: black;
+}
+
+#agua:active {
+    background-color: #3a759c;
+}
+
