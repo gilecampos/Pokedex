@@ -35,7 +35,7 @@ a {
     font-weight: bold;
     font-size: 3rem;
     color: white;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.603);
 }
 
 
@@ -84,7 +84,7 @@ a {
     bottom: 0;
     color: white;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.258);
+    background-color: rgba(0, 0, 0, 0.37);
 }
 }
 
@@ -103,7 +103,7 @@ a {
         font-weight: bold;
         font-size: 3rem;
         color: white;
-        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.678);
     }
     
     
@@ -151,7 +151,7 @@ a {
         height: 30px;
         bottom: 0%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.258);
+        background-color: rgba(0, 0, 0, 0.459);
     }
 }
 
@@ -171,7 +171,7 @@ a {
         font-weight: bold;
         font-size: 3rem;
         color: white;
-        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.664);
     }
     
     
@@ -221,7 +221,7 @@ a {
         height: 30px;
         bottom: 0%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.258);
+        background-color: rgba(0, 0, 0, 0.575);
     }
 }
 
@@ -239,7 +239,7 @@ a {
         font-weight: bold;
         font-size: 3rem;
         color: white;
-        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.548);
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.623);
     }
     
     .conteudo-principal {
@@ -294,7 +294,7 @@ a {
         height: 30px;
         bottom: 0%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.258);
+        background-color: rgba(0, 0, 0, 0.575);
     }
 }
 
