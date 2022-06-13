@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +74,7 @@ a {
     border-radius: 5px;
     margin: 3px;
 }
+
 
 .rodape {
     display: flex;
@@ -470,4 +472,5 @@ a {
 #agua:active {
     background-color: #3a759c;
 }
+
 
