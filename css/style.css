@@ -311,7 +311,6 @@ a {
 
 #bug {
     background-color: #729F3F;
-    border: 1px solid #516e30;
     color: white;
 }
 
@@ -321,7 +320,6 @@ a {
 
 #dragao {
     background-image: linear-gradient(to bottom, #53A4CF 50%, #F16E57 50% );
-    border: 1px solid white;
     color: white;
 }
 
@@ -331,7 +329,6 @@ a {
 
 #fada {
     background-color: #FDB9E9;
-    border: 1px solid #835475;
     color: white;
 }
 
@@ -341,7 +338,6 @@ a {
 
 #fogo {
     background-color: #FD7D24;
-    border: 1px solid #a55217;
     color: white;
 }
 
@@ -351,7 +347,6 @@ a {
 
 #ghost {
     background-color: #7B62A3;
-    border: 1px solid #4a3868;
     color: white;
 }
 
@@ -361,7 +356,6 @@ a {
 
 #ground {
     background-image: linear-gradient(to bottom, #F7DE3F 50%, #AB9842 50%);
-    border: 1px solid gray;
     color: white;
 }
 
@@ -371,7 +365,6 @@ a {
 
 #normal {
     background-color: #A4ACAF;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -381,7 +374,6 @@ a {
 
 #psiquico {
     background-color: #F366B9;
-    border: 1px solid #96346d;
     color: white;
 }
 
@@ -391,7 +383,6 @@ a {
 
 #steel {
     background-color: #9EB7B8;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -401,7 +392,6 @@ a {
 
 #dark {
     background-color: #707070;
-    border: 1px solid rgb(85, 83, 83);
     color: white;
 }
 
@@ -411,7 +401,6 @@ a {
 
 #electric {
     background-color: #EED535;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -421,7 +410,6 @@ a {
 
 #luta {
     background-color: #D56723;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -431,7 +419,6 @@ a {
 
 #flying {
     background-image: linear-gradient(to bottom, #3DC7EF 50%, #BDB9B8 50%);
-    border: 1px solid gray;
     color: white;
 }
 
@@ -441,7 +428,6 @@ a {
 
 #planta {
     background-color: #9BCC50;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -451,7 +437,6 @@ a {
 
 #ice {
     background-color: #51C4E7;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -461,7 +446,6 @@ a {
 
 #poison {
     background-color: #B97FC9;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -471,7 +455,6 @@ a {
 
 #rock {
     background-color: #A38C21;
-    border: 1px solid gray;
     color: white;
 }
 
@@ -481,7 +464,6 @@ a {
 
 #agua {
     background-color: #4592C4;
-    border: 1px solid gray;
     color: white;
 }
 
