@@ -269,6 +269,7 @@ a {
        max-width: 1250px;
        flex-wrap: wrap;
        margin: auto;
+       cursor: pointer;
     
     }
     
@@ -284,6 +285,7 @@ a {
         border-radius: 5px;
         margin: 3px;
     }
+
     
     .rodape {
         display: flex;
@@ -299,6 +301,13 @@ a {
 }
 
 /* TIPOS */
+
+.box-tipo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
 #bug {
     background-color: #729F3F;
     border: 1px solid #516e30;
